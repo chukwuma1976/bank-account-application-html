@@ -114,7 +114,7 @@ form button {
 
 /* users page styling */
 img { 
-    width: 50%;
+    width: 40%;
     float: left;
 }
 .profile {
@@ -146,5 +146,8 @@ img {
     }
     form {
         width: 60%;
+    }
+    nav a {
+        font-size: 1em;
     }
 }
