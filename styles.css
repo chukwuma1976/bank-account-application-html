@@ -7,12 +7,27 @@ body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
 }
 
+.FDM-logo {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+main button:hover {
+    background-color: navajowhite;
+}
+
 /* navigation bar */
 nav {
     position: fixed;
     background-color: lightblue;
     margin-left: 5%;
     font-weight: 700;
+}
+
+nav a {
+    color: white;
+    font-size: 1.5em;
 }
 
 .navigation {
@@ -27,6 +42,7 @@ nav {
 nav button{
     background-color: blue;
     font-weight: 700;
+    border-radius: 1em;
 }
 
 nav a:hover {
@@ -80,9 +96,18 @@ form {
 /* users page styling */
 img { 
     width: 100%;
+    aspect-ratio: 1;
 }
 .profile {
-    width: 20%;
     padding: 10px;
     border: 2px solid blue;
+    margin: 10px;
+    flex: 0 0 20%;
+    justify-content: left;
+    border-radius: 1em;
+    background-color: aliceblue;
+}
+.profile-container {
+    display: flex;
+    flex-wrap: wrap;
 }
