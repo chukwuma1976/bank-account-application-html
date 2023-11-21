@@ -1,0 +1,88 @@
+main {
+    padding-top: 10%;
+}
+
+body {
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+/* navigation bar */
+nav {
+    position: fixed;
+    background-color: lightblue;
+    margin-left: 5%;
+    font-weight: 700;
+}
+
+.navigation {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: red;
+}
+.users {
+    background-color: yellow;
+}
+
+nav button{
+    background-color: blue;
+    font-weight: 700;
+}
+
+nav a:hover {
+    background-color: gray;
+}
+
+nav button:hover {
+    background-color: gray;
+}
+
+
+/* table styling */
+table {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: azure;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+tr:hover {
+    background-color: yellow;
+}
+td {
+    padding: 0 2%;
+}
+.add-new-account {
+    text-align: center;
+    margin: 2%;
+}
+.add-new-account button {
+    width: 15%;
+    border-radius: 1em;
+}
+
+/* form styling */
+form {
+    width: 30%;
+    margin: 0 auto;
+    border: 2px solid blue;
+    padding: 2%;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+/* users page styling */
+img { 
+    width: 100%;
+}
+.profile {
+    width: 20%;
+    padding: 10px;
+    border: 2px solid blue;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1">
+        <meta name="description" content="This is a banking application" >
+        <link rel="stylesheet" href="styles.css" >
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a class="navigation" href="home.html">Home</a>
+                <a class="navigation" href="newAccount.html">Add</a>
+                <a class="navigation" href="updateAccount.html">Update</a>
+                <a class="navigation users" href="users.html">Users</a>
+                <button><a href="login.html">Login</a></button>
+                <button><a href="register.html">Register</a></button>
+            </nav>
+        </header>
+        <main>
+            <table>
+                <tr class="table-header">
+                    <th>Account Id</th>
+                    <th>Account Type</th>
+                    <th>Account Balance</th>
+                    <th>Account Owner</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Checking</td>
+                    <td>10000</td>
+                    <td>Clark Kent</td>
+                    <td>
+                        <button>
+                            <a href="newAccount.html?id=1">Update</a>
+                        </button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Investing</td>
+                    <td>100000000</td>
+                    <td>Bruce Wayne</td>
+                    <td>
+                        <button>
+                            <a href="newAccount.html?id=2">Update</a>
+                        </button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Savings</td>
+                    <td>10000000000</td>
+                    <td>Diana Prince</td>
+                    <td>
+                        <button>
+                            <a href="newAccount.html?id=3">Update</a>
+                        </button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Checking</td>
+                    <td>100</td>
+                    <td>Barry Allen</td>
+                    <td>
+                        <button>
+                            <a href="newAccount.html?id=4">Update</a>
+                        </button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Savings</td>
+                    <td>100000</td>
+                    <td>Hal Jordan</td>
+                    <td>
+                        <button>
+                            <a href="newAccount.html?id=5">Update</a>
+                        </button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Investment</td>
+                    <td>1000000</td>
+                    <td>John Jones</td>
+                    <td>
+                        <button>
+                            <a href="newAccount.html?id=6">Update</a>
+                        </button>
+                        <button>Delete</button>
+                    </td>
+                </tr>
+            </table>
+            <div class="add-new-account">
+                <button><a href="newAccount.html">Add New Account</a></button>
+            </div>
+        </main>
+    </body>
+</html>
